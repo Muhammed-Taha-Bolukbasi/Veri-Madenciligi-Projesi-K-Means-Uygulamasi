@@ -185,7 +185,7 @@ pyinstaller --noconfirm --onedir --windowed
 
 Paylaşmış olduğum excel dosyası indirin veya aynı formatta, içerisinde iki sütun olan ve sayısal değerler içeren bir excel dosyası edinin.
 
-### 1. "ornek_dataset.xlsx" bu şekilde
+### 1. "ornek_dataset.xlsx" bu şekilde.
 ![Screenshot_1](images/1.png)
 
 ### 2. Uygulamamı çalıştırıyorum ve gelen pencereden excel dosyamı  seçiyorum. 
