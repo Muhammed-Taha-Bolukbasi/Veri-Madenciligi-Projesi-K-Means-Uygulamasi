@@ -1,7 +1,7 @@
 # Açıklama
 Hazır kod kullanmadan bir k_means algoritması oluşturdum. Algoritma özet olarak kullanıcıdan iki sütundan oluşan ve içerisinide sayısal değerler olan bir excel dosyasını alıp kümeliyor.
 
-Algoritmanın kodunu paylaşıyorum fakat uygulamayı 25mb den büyük olduğu için github üzerinden paylaşamıyorum ancak aşağıdaki talimatlara uyarak kodu uygulama halie getirebilirsiniz. Ben yine de Not ksımına bir drive linki bırakıyorum, ne kadar eişilebilir olur onu bilemem. Eğer uygulamadan çalıştırırsanız python yüklü olmasa bile hiçbir bağımlılık sorunu olmaksızın çalıştırabilirsiniz.
+Algoritmanın kodunu paylaşıyorum fakat uygulamayı 25mb den büyük olduğu için github üzerinden paylaşamıyorum ancak aşağıdaki talimatlara uyarak kodu uygulama haline getirebilirsiniz. Ben yine de Not ksımına bir drive linki bırakıyorum, ne kadar eişilebilir olur onu bilemem. Eğer uygulamadan çalıştırırsanız python yüklü olmasa bile hiçbir bağımlılık sorunu olmaksızın çalıştırabilirsiniz.
 
 Eğer kodu çalıştırmak isterseniz bağımlılıkları yüklemelisiniz.
 
