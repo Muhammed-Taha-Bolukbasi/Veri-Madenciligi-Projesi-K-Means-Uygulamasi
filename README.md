@@ -188,7 +188,7 @@ Paylaşmış olduğum excel dosyası indirin veya aynı formatta, içerisinde ik
 ### 1. "ornek_dataset.xlsx" bu şekilde
 ![Screenshot_1](images/1.png)
 
-### 2. Uygulamamı çalıştırıyorum ve gellen pencereden excel dosyamı  seçiyorum. 
+### 2. Uygulamamı çalıştırıyorum ve gelen pencereden excel dosyamı  seçiyorum. 
 ![Screenshot_1](images/2.png)
 
 ### 3. Seçtikten sonra gelen pencereye k sayısını giriyorum.
@@ -202,6 +202,7 @@ Paylaşmış olduğum excel dosyası indirin veya aynı formatta, içerisinde ik
 
 # Not
 Datasetinizdeki sütun adlarının ne olduğu önemsizdir, program için bir anlam ifade etmiyor.
+
 Drive linki:
 https://drive.google.com/drive/folders/1C_d-dUWksF-ovrSiMwpB-17utk2Je0cl?usp=sharing
 
