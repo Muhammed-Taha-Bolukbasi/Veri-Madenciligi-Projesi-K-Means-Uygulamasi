@@ -140,3 +140,56 @@ output_file_path = os.path.join(os.path.dirname(dosya_yolu), 'dataset_k_means_Ç
 dataset.to_excel(output_file_path, index=False)
 ```
 
+# Kodun uygulama haline getirilmesi
+Bunun için pyinstaller modülünü kullandım. Kullanmak için önce kurmamız gerek.
+```bash
+    pip install pyinstaller
+```
+Kurduktan sonra python dosyamızın olduğu dizinden konola şu komutları yazıyoruz, tabi ben bunu örnek olarak yazıyorum, buradaki path leri kendinize göre doldurmalısınız. Aksi takdirde çalışmaz.
+```bash
+pyinstaller --noconfirm --onedir --windowed 
+--add-data "C:/Users/"kullanıcı"/AppData/Local/Programs/Python/Python310/Lib/site-packages/pandas;pandas/" 
+--add-data "C:/Users/"kullanıcı"/AppData/Local/Programs/Python/Python310/Lib/site-packages/openpyxl;openpyxl/"  
+"C:/Users/"kullanıcı"/"python dosyamın dizini"/k_means_uygulamasi.py"
+```
+
+# Uygulamanın çalıştırılması
+Vermiş olduğum rar dosyasını indirin ve içindeki klasörü çıkarın.
+
+Elinizde paylaşmış olduğum excel dosyası indirin veya aynı formatta, içerisinde iki sütun olan ve sayısal değerler içeren bir excel dosyası edinin.
+
+Bütün bu şartları sağladıysanız siz de bu şekilde uygulamayı kullanabilirsiniz:
+
+### 1. "ornek_dataset.xlsx" bu şekilde
+![Screenshot_1](images/1.png)
+
+### 2. Uygulamamı çalıştırıyorum ve gellen pencereden excel dosyamı  seçiyorum. 
+![Screenshot_1](images/2.png)
+
+### 3. Seçtikten sonra gelen pencereye k sayısını giriyorum.
+![Screenshot_1](images/3.png)
+
+### 4. İşlem başarılı bir şekilde gerçekleşiyor ve "dataset_k_means_Çıktı.xlsx" dosyası oluşuyor.
+![Screenshot_1](images/4.png)
+
+### 5. Son olarak da "dataset_k_means_Çıktı.xlsx" dosyasını içeriği de bu şekilde.
+![Screenshot_1](images/5.png)
+
+# Not
+Datasetinizdeki sütun adlarının ne olduğu önemsizdir, programiçin bir anlam ifade etmiyor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
