@@ -43,6 +43,34 @@ def dosya_sec():
 
 Burada kullanıcı açılan pencereye k sayısını giriyor ve "Onayla" butonuna basıyor. Yani k sayısını kullanıcıya seçtiriyorum. 
 
+```python
+def k_sayisi_penceresi():
+    pencere = Tk()
+    pencere.title("K Sayısı Belirleme")
+    pencere.geometry("300x150")
+
+    label = Label(pencere, text="Lütfen k sayısını giriniz:")
+    label.pack(pady=10)
+
+    k_giris = Entry(pencere)
+    k_giris.pack(pady=10)
+
+    def k_sayisi_al():
+        try:
+            global k
+            k = int(k_giris.get())
+            pencere.destroy()
+        except ValueError:
+            messagebox.showerror("Hata", "Geçersiz giriş. Lütfen bir sayı girin.")
+
+    button = Button(pencere, text="Onayla", command=k_sayisi_al)
+    button.pack(pady=10)
+
+    pencere.protocol("WM_DELETE_WINDOW", sys.exit)
+
+    pencere.mainloop()
+```
+
 ## k_means(dataset) fonksiyonu:
 
 Asıl işin yapıldığı fonksiyon burada. Bu fonksiyon genel hatlarıyla dört aşamadan oluşuyor. 
@@ -176,7 +204,7 @@ Bütün bu şartları sağladıysanız siz de bu şekilde uygulamayı kullanabil
 ![Screenshot_1](images/5.png)
 
 # Not
-Datasetinizdeki sütun adlarının ne olduğu önemsizdir, programiçin bir anlam ifade etmiyor.
+Datasetinizdeki sütun adlarının ne olduğu önemsizdir, program için bir anlam ifade etmiyor.
 
 
 
