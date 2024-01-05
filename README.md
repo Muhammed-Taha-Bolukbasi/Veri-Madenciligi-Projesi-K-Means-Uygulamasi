@@ -23,6 +23,15 @@ Ya da direkt olarak requirements.txt üzerinden indirebilirsiniz.
 ```
 
 # Kod
+## import edilecek kütüphaneler:
+```python
+import math
+import os
+import sys
+import pandas as pd
+from tkinter import filedialog, Tk, Button, Label, Entry, messagebox
+```
+
 Kodum dört fonksiyondan oluşuyor, önce fonksiyonları açıklayacağım.
 
 ## dosya_sec() fonksiyonu:
