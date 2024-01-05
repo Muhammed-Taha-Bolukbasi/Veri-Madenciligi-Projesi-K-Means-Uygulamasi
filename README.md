@@ -1,7 +1,7 @@
 # Açıklama
 Hazır kod kullanmadan bir k_means algoritması oluşturdum. Algoritma özet olarak kullanıcıdan iki sütundan oluşan ve içerisinide sayısal değerler olan bir excel dosyasını alıp kümeliyor.
 
-Algoritmanın kodunu ve pyinstaller modülü ile hazırlamış olduğum uygulamayı paylaşıyorum. Eğer uygulamadan çalıştırırsanız python yüklü olmasa bile hiçbir bağımlılık sorunu yaşamazsınız.
+Algoritmanın kodunu paylaşıyorum fakat uygulamayı 25mb den büyük olduğu için github üzerinden paylaşamıyorum ancak aşağıdaki talimatlara uyarak kodu uygulama halie getirebilirsiniz. Ben yine de Not ksımına bir drive linki bırakıyorum, ne kadar eişilebilir olur onu bilemem. Eğer uygulamadan çalıştırırsanız python yüklü olmasa bile hiçbir bağımlılık sorunu olmaksızın çalıştırabilirsiniz.
 
 Eğer kodu çalıştırmak isterseniz bağımlılıkları yüklemelisiniz.
 
@@ -182,11 +182,8 @@ pyinstaller --noconfirm --onedir --windowed
 ```
 
 # Uygulamanın çalıştırılması
-Vermiş olduğum rar dosyasını indirin ve içindeki klasörü çıkarın.
 
-Elinizde paylaşmış olduğum excel dosyası indirin veya aynı formatta, içerisinde iki sütun olan ve sayısal değerler içeren bir excel dosyası edinin.
-
-Bütün bu şartları sağladıysanız siz de bu şekilde uygulamayı kullanabilirsiniz:
+Paylaşmış olduğum excel dosyası indirin veya aynı formatta, içerisinde iki sütun olan ve sayısal değerler içeren bir excel dosyası edinin.
 
 ### 1. "ornek_dataset.xlsx" bu şekilde
 ![Screenshot_1](images/1.png)
@@ -205,6 +202,10 @@ Bütün bu şartları sağladıysanız siz de bu şekilde uygulamayı kullanabil
 
 # Not
 Datasetinizdeki sütun adlarının ne olduğu önemsizdir, program için bir anlam ifade etmiyor.
+Drive linki:
+https://drive.google.com/drive/folders/1C_d-dUWksF-ovrSiMwpB-17utk2Je0cl?usp=sharing
+
+
 
 
 
