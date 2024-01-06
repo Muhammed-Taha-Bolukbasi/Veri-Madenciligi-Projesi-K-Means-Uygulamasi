@@ -119,18 +119,18 @@ def k_means(dataset):
         yeni_birinci_kolon = []
         yeni_ikinci_kolon = []
         for i in range(k):
-            birinco_kolon = []
+            birinci_kolon = []
             ikinci_kolon = []
             for j in range(len(dataset)):
                 if dataset.iloc[j, 2] == i:
-                    birinco_kolon.append(dataset.iloc[j, 0]) 
+                    birinci_kolon.append(dataset.iloc[j, 0]) 
                     ikinci_kolon.append(dataset.iloc[j, 1])
 
-            if len(birinco_kolon) != 0:
-                yeni_birinci_kolon.append(sum(birinco_kolon) / len(birinco_kolon))
+            if len(birinci_kolon) != 0:
+                yeni_birinci_kolon.append(sum(birinci_kolon) / len(birinci_kolon))
             else:
                 yeni_birinci_kolon.append(0)
-            if len(birinco_kolon) != 0:
+            if len(ikinci_kolon) != 0:
                 yeni_ikinci_kolon.append(sum(ikinci_kolon) / len(ikinci_kolon))
             else:
                 yeni_ikinci_kolon.append(0)
