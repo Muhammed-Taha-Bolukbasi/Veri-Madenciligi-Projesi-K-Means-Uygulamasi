@@ -75,7 +75,7 @@ def k_means(dataset):
             birinci_kolon = []
             ikinci_kolon = []
             for j in range(len(dataset)):
-                if dataset.iloc[j, 2] == i:
+                if dataset['Küme'].iloc[j]:
                     birinci_kolon.append(dataset.iloc[j, 0]) # iloc[satır, sütun]
                     ikinci_kolon.append(dataset.iloc[j, 1])
 
